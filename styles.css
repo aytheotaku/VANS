@@ -105,3 +105,28 @@ a{
 .animate__flash{
 	animation-duration: 9s;
 }
+
+@media screen and (max-width: 920px){
+	hr{
+		display: none;
+	}
+}
+@media screen and (max-width: 500px){
+	
+		h1{
+			margin-bottom: 0;
+			font-weight: 400;
+			font-size: 3rem
+		}
+	.btn-xl{
+		padding: 1rem 1rem;
+		background-color: black;
+		color: white;
+		font-weight: 'Bentham', serif;
+		font-weight: 500;
+	}
+	hr{
+		display: none;
+	}
+	
+}
